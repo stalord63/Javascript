@@ -188,3 +188,54 @@ console.log(getFee(null));
 // expected output: "$10.00"
 
 */
+
+/*--------------------------------------------9th vdo---------------------------------------------
+/*Different Kinds of Loops
+JavaScript supports different kinds of loops:
+
+for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+for/of - loops through the values of an iterable object
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
+*/
+
+/*for/in loop
+/*const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x];
+}*/        // Output-John Doe 25
+
+
+/* for-of loop
+The JavaScript for of statement loops through the values of an iterable object.
+It lets you loop over iterable data structures such as Arrays, Strings, Maps, NodeLists, and more:
+const cars = ["BMW", "Volvo", "Mini"];
+
+let text = "";
+for (let x of cars) {
+  text += x;
+}*/
+
+/*----------------------------------------11th video ---------------------------------------------*/
+//functions
+/*function addition(a,b){
+  return a+b;
+}
+console.log(addition(3,7))
+*/
+
+/*const hello = () => {
+  return "Hello World!";
+}
+
+*/
+/* const hello = (p,q)=>{
+    return p+q;
+}
+*/
+
+/*-----------------------------------------------12 the video-------------------------*/
+//look loop.js
