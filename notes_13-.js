@@ -66,3 +66,15 @@ str1.localeCompare(str2)Return -1, 0, or 1 indicating if string str1 is less tha
 str.match(regexp)Match a regular expression regexp against string str
 str1.replace(regexp, str2)Replace matched regexp elements in string str1 with string str2
 str.search(regexp)Return position of search for a match between regexp and string str*/
+
+// string is immutable
+//method always return a new string.
+
+/*------------------------------------------16th video----------------------------------------------*/
+//arrays are mutable,arays can be chnanged
+
+//let marks=[1,2,3,4,5,6,null]
+
+/*-------------------------------------------17nd18 vdo----------------------------------------------*/
+//w3school array methods
+//array.sort() sort the array alphabatically.
